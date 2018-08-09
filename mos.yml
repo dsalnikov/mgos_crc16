@@ -1,0 +1,15 @@
+author: lamazavr
+type: lib
+description: CRC-16 library
+version: 1.0
+
+sources:
+  - src
+includes:
+  - include
+
+tags:
+  - c
+  - crc16
+
+manifest_version: 2017-09-29
