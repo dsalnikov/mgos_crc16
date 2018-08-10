@@ -1,4 +1,5 @@
 #include "mgos_crc16.h"
+#include "stdbool.h"
 
 const uint16_t Crc16Table[256] = {
     0x0000, 0xC0C1, 0xC181, 0x0140, 0xC301, 0x03C0, 0x0280, 0xC241,
