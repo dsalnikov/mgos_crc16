@@ -48,3 +48,8 @@ uint16_t crc16(uint16_t *buff, uint32_t len)
     } while(len);
     return crc;
 }
+
+bool mgos_mgos_crc16_init()
+{
+    return true;
+}
